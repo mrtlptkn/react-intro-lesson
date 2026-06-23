@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CancelButton from "./CancelButton";
+import CancelButton from "../CancelButton";
 
 function Test(){
 

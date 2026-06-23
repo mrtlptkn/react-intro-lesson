@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getTodos, type Todo } from "./api/todo.api";
+import { getTodos, type Todo } from "../api/todo.api";
 
 
 function Todos() {
