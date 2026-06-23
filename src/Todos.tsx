@@ -54,7 +54,7 @@ function Todos() {
   return config;
 });
 
-      axiosInstance.get("https://jsonplaceholder.typicode.com/todos")
+      axiosInstance.get("https://jsonplaceholder.typicode.com/todos",{timeout: 5000})
         .then((response:any) => {
           console.log("Response status:", response.status);
           console.log("Response data:", response);
